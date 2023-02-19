@@ -1,0 +1,166 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: url("coding 2.jpg");
+	background-size: cover;
+}
+.navbar{
+	background: rgba(0, 0, 0, 0.5);
+	height: 100px;
+	width: 100%;
+}
+img:hover{
+	cursor: pointer;
+}
+.item a{
+	text-decoration: none;
+	font-size: 1.20rem;
+	color: white;
+	font-family: 'Fasthand', cursive;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Lalezar', cursive;
+	
+}
+.item
+{
+	transition: all 1s;
+
+}
+ .item:hover
+{
+	transform: scale(1.2);
+
+}
+ul{
+	overflow: auto;
+}
+li{
+	list-style: none;
+}
+.item
+{
+    
+    float: left;
+
+
+}
+.button1{
+	padding: 10px;
+}
+.item1{
+	float: right;
+	padding: 10px;
+	margin: 15px 10px;
+}
+
+#info
+{
+	padding: 30px ;
+	margin: 10px 10px;
+}
+.sea
+{
+	padding: 10px;
+}
+.button1{
+	background-color:rgba(0, 0, 0, 0.5);
+	border:2px solid white ;
+
+	border-radius: 4px;
+	font-size: 1.20rem;
+	font-weight: bolder;
+	color: white;
+
+	
+}
+.button1:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+.form{
+	display: flex;
+	justify-content: center;
+}
+h1{
+	text-align: center;
+}
+form{
+	color: white;
+	border: 2px solid white;
+	border-radius: 6px;
+	box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.8);
+	width:500px;
+	margin: 10px;
+
+
+}
+form:hover
+{
+	background-color: black;
+}
+
+label{
+	font-size: 25px;
+	margin: 10px 10px;
+	font-family: 'Fasthand', cursive;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Lalezar', cursive;
+}
+input[type="text"]
+{
+	padding: 10px;
+	width: 300px;
+	margin: 10px 10px;
+	border-radius: 10px;
+}
+input[type="password"]
+{
+	padding: 10px;
+	width: 300px;
+	margin: 10px 10px;
+	border-radius: 10px;
+
+}
+input[type="email"]
+{
+	padding: 10px;
+	width: 300px;
+	margin: 10px 10px;
+	border-radius: 10px;
+}
+
+#button2
+{
+	padding: 20px;
+	margin: 10px 150px;
+	width: 200px;
+	border-radius: 10px;
+	font-weight: bolder;
+	font-size: 1.38rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+
+}
+#button2:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+
+}
+@media(max-width:1000px and min-width:0px)
+{
+	.navbar{
+		display: flex;
+		background-color: red;
+	}
+}
+
+
+
+
+
